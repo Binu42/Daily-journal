@@ -74,6 +74,10 @@ a:hover {
   color: #915757;
 }
 
+.bg-color{
+  background-image: linear-gradient(to right top, #ed3833, #fabc74, #bb1542);
+}
+
 @media(max-width: 40rem) {
   .footer p {
     font-size: 18px;
