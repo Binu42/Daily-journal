@@ -5,12 +5,13 @@ html {
   padding: 0;
   clear: both;
 }
-body{
-  background: linear-gradient(at top right 65deg, #e75858, #64a4e4);
+
+body {
   font-size: 20px;
   margin: 0;
   padding: 0;
 }
+
 .pad {
   padding-bottom: 4rem;
   padding-top: 6rem;
@@ -22,6 +23,7 @@ body{
   width: 100%;
   font-size: 18px;
   position: fixed;
+  border-bottom: #26e1ee 3px solid;
   top: -1px;
   z-index: 1;
 }
@@ -39,16 +41,16 @@ body{
   text-align: center;
   bottom: 0;
   width: 100%;
-  height: 100px;
+  height: 130px;
   padding: 10px;
   background-color: #1abc9c;
 }
 
-i{
+i {
   color: black;
 }
 
-i:hover{
+i:hover {
   color: #fff;
 }
 
@@ -57,19 +59,20 @@ i:hover{
   font-size: 16px;
   color: #fff;
 }
-.link a{
+
+.link a {
   display: block;
 }
 
-h3{
+h3 {
   color: #070707;
 }
 
-p{
+p {
   color: #1f1a1a;
 }
 
-a:hover{
+a:hover {
   color: #915757;
 }
 
@@ -77,15 +80,15 @@ a:hover{
   .footer p {
     font-size: 18px;
   }
-
+  .footer{
+    width: 100vw;
+  }
   body {
     font-size: 22px;
   }
-}
 
-@media(max-width: 500px){
-  img{
-    max-width: 100%;
+  img {
+    max-width: 90%;
     max-height: 100%;
   }
 }
