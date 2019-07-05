@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require("mongoose");
 
+
 mongoose.connect("mongodb+srv://admin-Binu:"+ process.env.password +"@cluster0-9npsv.mongodb.net/postDB", {
   useNewUrlParser: true
 });
@@ -57,7 +58,7 @@ app.get("/compose", function (req, res) {
 app.post("/compose", function (req, res) {
   const post = new Post({
     title: req.body.postTitle,
-    content: req.body.postBody
+    content: req.body.editor1
   });
   post.save(function (error) {
     if (!error) {
@@ -80,6 +81,6 @@ app.get("/posts/:postId", function (req, res) {
   });
 });
 
-app.listen(process.env.PORT || 3000, function () {
-  console.log("Server started on port 3000");
+app.listen(process.env.PORT || 4000, function () {
+  console.log("Server started on port 4000");
 });
