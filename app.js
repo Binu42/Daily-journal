@@ -81,6 +81,6 @@ app.get("/posts/:postId", function (req, res) {
   });
 });
 
-app.listen(process.env.PORT || 4000, function () {
-  console.log("Server started on port 4000");
+app.listen(process.env.PORT || 8000, function () {
+  console.log("Server started on port 8000");
 });
