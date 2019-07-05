@@ -6,6 +6,7 @@ html {
   clear: both;
 }
 body{
+  background: linear-gradient(at top right 65deg, #e75858, #64a4e4);
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -22,6 +23,7 @@ body{
   font-size: 18px;
   position: fixed;
   top: -1px;
+  z-index: 1;
 }
 
 .navbar-nav li a:hover {
