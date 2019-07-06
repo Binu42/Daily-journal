@@ -26,6 +26,18 @@ body {
   z-index: 1;
 }
 
+.navbar-toggler:hover {
+  border-color: #1abc9c;
+}
+
+.navbar.navbar-custom .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=fff');
+}
+
+.navbar.navbar-custom .navbar-toggler-icon:hover {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=000');
+}
+
 .navbar-nav li a:hover {
   color: #1abc9c !important;
 }
@@ -74,17 +86,15 @@ a:hover {
   color: #915757;
 }
 
-.bg-color{
-  background-image: linear-gradient(to right top, #ed3833, #fabc74, #bb1542);
-}
-
 @media(max-width: 40rem) {
   .footer p {
     font-size: 18px;
   }
-  .footer{
+
+  .footer {
     width: 100vw;
   }
+
   body {
     font-size: 22px;
   }
