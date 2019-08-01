@@ -1,6 +1,6 @@
 <%- include("partials/header"); -%>
 <h1 style="text-align: center; color: #f13d10">Home</h1>
-<p style="font-weight: 550"> <%= startingContent %> </p>
+<p style="font-weight: 550; text-align: center"> <%= startingContent %> </p>
 
 
 <%  posts.forEach(function(post){ %>
@@ -10,7 +10,8 @@
     <div class="col-md-9 mb-3">
       <h3><%=post.title%></h3>
     </div>
-    <div class="col-md-3 mb-4">
+    <div class="col-md-1"></div>
+    <div class="col-md-2 mb-4">
       <a href="/posts/<%=post._id%>" class="btn btn-info btn-sm">Read More</a>
     </div>
   </div>

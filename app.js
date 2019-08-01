@@ -10,7 +10,7 @@ mongoose.connect("mongodb+srv://admin-Binu:"+ process.env.password +"@cluster0-9
   useNewUrlParser: true
 });
 
-const homeStartingContent = "In this Daily Journal anyone can write there own Blog post and that blog post will remain here for 1 day. Ranking of Blog post will be given according to their submission. If you want to Delete your post contact at kbinu42@gmail.com.";
+const homeStartingContent = "Welcome, to Daily Journal. Here you can share anykind of news you want.";
 const aboutContent = "This Blog post is Created by Binu kumar. He is currently a second year Computer Science undergraduate. I created this website with the user's perspective in mind.";
 
 const app = express();
